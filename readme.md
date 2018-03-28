@@ -1,18 +1,18 @@
-#start aws sam
+# start aws sam
 
 sam local start-api
 
-#start sam sam with local logging
+# start sam sam with local logging
 
 sam local start-api --log-file ./output.log
 
-#Guide
+# Guide
 
 https://docs.aws.amazon.com/lambda/latest/dg/sam-cli-requirements.html
 
-#Steps
+# Steps
 
-##1, Install Docker
+## 1, Install Docker
 
 https://docs.docker.com/install/
 
@@ -24,7 +24,7 @@ docker pull lambci/lambda:java8 ------pull a image from Docker Hub
 
 docker run --rm -v "%cd%/build/docker":/var/task lambci/lambda:java8 org.lambci.lambda.ExampleHandler '{"some": "event"}' ------run a docker image "lambci/lambda:java8", set handler to 'org.lambci.lambda.ExampleHandler', set event to a json '{"some": "event"}'
 
-##2, Install AWS sam local
+## 2, Install AWS sam local
 
 https://github.com/awslabs/aws-sam-local
 
@@ -32,7 +32,7 @@ npm install -g aws-sam-local ------install aws sam local, npm needed
 
 sam --version ------check sam version
 
-##3, Setup template.yaml and event json
+## 3, Setup template.yaml and event json
 
 Sam will look for template.yaml and event json
 
@@ -129,6 +129,6 @@ Sample event json
 }
 ```
 
-##4, Call sam to invoke lambda function, using docker image lambci/lambda
+## 4, Call sam to invoke lambda function, using docker image lambci/lambda
 
 sam local invoke CreateThumbnailJavaFcuntion -e .\\event\\create_thumbnail.json --log-file ./output.log ------a sample call of sam local, write reuslt into a file 'output.log'
