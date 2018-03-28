@@ -148,7 +148,7 @@ or start sam with local logging
 ```
 sam local start-api --log-file ./output.log
 ```
-# small note
+### small note
 
 You don't need to restart to make changes in your handlers work
 
@@ -165,15 +165,18 @@ docker pull lambci/lambda
 docker image ls
 ```
 Those commands pull the image from docker hub and list images you have
-## 2, Install AWS sam local
+## 2, Install npm
+Follow instructions here: https://www.npmjs.com/get-npm
+npm comes together with Node, so normally you only need to install Node, here is the way: https://nodejs.org/en/download/
+## 3, Install AWS sam local
 Follow instructions here: https://github.com/awslabs/aws-sam-local
 ```
 sam --version
 ```
 This command shows sam version to verify it is installed successfully.
-## 3, Clone Mock API repo from git
+## 4, Clone Mock API repo from git
 Clone from this repo: https://github.com/Emiyashirou/sysco_mock_api
-## 4, Start AWS sam
+## 5, Start AWS sam
 Go to the directory you just cloned, start aws sam
 ```
 sam local start-api
