@@ -6,6 +6,50 @@ sam local start-api
 
 sam local start-api --log-file ./output.log
 
+# small note
+
+You don't need to restart to make changes in your handers work
+
+# APIs available
+
+http://127.0.0.1:3000/groups [GET]
+
+http://127.0.0.1:3000/groups/{id} [GET]
+
+http://127.0.0.1:3000/groups [POST]
+
+http://127.0.0.1:3000/groups/{id} [PUT]
+
+http://127.0.0.1:3000/locations [GET]
+
+http://127.0.0.1:3000/locations/{id} [GET]
+
+http://127.0.0.1:3000/locations [POST]
+
+http://127.0.0.1:3000/locations/{id} [PUT]
+
+http://127.0.0.1:3000/looksup [GET]
+
+http://127.0.0.1:3000/looksup/{category} [GET]
+
+http://127.0.0.1:3000/opcos [GET]
+
+http://127.0.0.1:3000/opcos/{id} [GET]
+
+http://127.0.0.1:3000/global-settings/{id} [GET]
+
+http://127.0.0.1:3000/global-settings/{id} [POST]
+
+http://127.0.0.1:3000/global-settings/{id} [PUT]
+
+http://127.0.0.1:3000/users/{id} [PUT]
+
+http://127.0.0.1:3000/users [GET]
+
+http://127.0.0.1:3000/users/{id} [GET]
+
+http://127.0.0.1:3000/users [POST]
+
 # Guide
 
 https://docs.aws.amazon.com/lambda/latest/dg/sam-cli-requirements.html

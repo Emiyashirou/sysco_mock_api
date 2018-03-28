@@ -7,20 +7,20 @@ Resources:
   Products:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: globalSettings.handler
+      Handler: handler/globalSettings.handler
       Runtime: nodejs6.10
       Events:
-        GetGlobalSettings:
+        GetGlobalSettingsById:
           Type: Api
           Properties:
             Path: /global-settings/{id}
             Method: get
-        PostGlobalSettings:
+        PostGlobalSettingsById:
           Type: Api
           Properties:
             Path: /global-settings/{id}
             Method: post
-        PutGlobalSettings:
+        PutGlobalSettingsById:
           Type: Api
           Properties:
             Path: /global-settings/{id}
@@ -29,7 +29,7 @@ Resources:
   Looksup:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: looksup.handler
+      Handler: handler/looksup.handler
       Runtime: nodejs6.10
       Events:
         GetLooksupAll:
@@ -46,7 +46,7 @@ Resources:
   OpCos:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: opCos.handler
+      Handler: handler/opCos.handler
       Runtime: nodejs6.10
       Events:
         GetOpCosAll:
@@ -59,3 +59,84 @@ Resources:
           Properties:
             Path: /opcos/{id}
             Method: get
+
+  Users:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler/users.handler
+      Runtime: nodejs6.10
+      Events:
+        GetUsersAll:
+          Type: Api
+          Properties:
+            Path: /users
+            Method: get
+        GetUsersById:
+          Type: Api
+          Properties:
+            Path: /users/{id}
+            Method: get
+        PostUsers:
+          Type: Api
+          Properties:
+            Path: /users
+            Method: post
+        PutUsersById:
+          Type: Api
+          Properties:
+            Path: /users/{id}
+            Method: put
+
+  Groups:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler/groups.handler
+      Runtime: nodejs6.10
+      Events:
+        GetGroupsAll:
+          Type: Api
+          Properties:
+            Path: /groups
+            Method: get
+        GetGroupsById:
+          Type: Api
+          Properties:
+            Path: /groups/{id}
+            Method: get
+        PostGroups:
+          Type: Api
+          Properties:
+            Path: /groups
+            Method: post
+        PutGroupsById:
+          Type: Api
+          Properties:
+            Path: /groups/{id}
+            Method: put
+
+  Locations:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler/locations.handler
+      Runtime: nodejs6.10
+      Events:
+        GetLocationsAll:
+          Type: Api
+          Properties:
+            Path: /locations
+            Method: get
+        GetLocationsById:
+          Type: Api
+          Properties:
+            Path: /locations/{id}
+            Method: get
+        PostLocations:
+          Type: Api
+          Properties:
+            Path: /locations
+            Method: post
+        PutLocationsById:
+          Type: Api
+          Properties:
+            Path: /locations/{id}
+            Method: put
