@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "Id": "01-000001",
+      "OpCo": 1,
+      "LocationType": "Ship-To",
+      "Name": "No Way Jose",
+      "SyscoContact": "Jones, Fred",
+      "Address": "1312 Star Road, Houston, Texas 77212"
+    },
+    {
+      "Id": "02-000002",
+      "OpCo": 1,
+      "LocationType": "Ship-To",
+      "Name": "Alicia's Mexican Grille #1",
+      "SyscoContact": "Blake, Daphney",
+      "Address": "1111 Mystery Court, Spookytown, California 70001"
+    },
+    {
+      "Id": "02-000003",
+      "OpCo": 2,
+      "LocationType": "Ship-To",
+      "Name": "Alicia's Mexican Grille #2",
+      "SyscoContact": "Gonzales, Speedy",
+      "Address": "1 Fast Lane, Ole Town, California 70001"
+    },
+    {
+      "Id": "03-000001",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #1",
+      "SyscoContact": "Dwarf, Sneezy",
+      "Address": "771 Diamond Lane, Mining Town, Colorado 70001"
+    },
+    {
+      "Id": "03-000002",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #2",
+      "SyscoContact": "Dwarf, Doppy",
+      "Address": "772 Diamond Lane, Mining Town, Colorado 70001"
+    },
+    {
+      "Id": "03-000003",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #3",
+      "SyscoContact": "Dwarf, Sleepy",
+      "Address": "773 Diamond Lane, Mining Town, Colorado 70001"
+    },
+    {
+      "Id": "03-000004",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #4",
+      "SyscoContact": "Dwarf, Grumpy",
+      "Address": "774 Diamond Lane, Mining Town, Colorado 70001"
+    },
+    {
+      "Id": "03-000005",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #5",
+      "SyscoContact": "Dwarf, Doc",
+      "Address": "775 Diamond Lane, Mining Town, Colorado 70001"
+    },
+    {
+      "Id": "03-000006",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #6",
+      "SyscoContact": "Dwarf, Happy",
+      "Address": "776 Diamond Lane, Mining Town, Colorado 70001"
+    },
+    {
+      "Id": "03-000007",
+      "OpCo": 7,
+      "LocationType": "Ship-To",
+      "Name": "9ers Grill #7",
+      "SyscoContact": "Dwarf, Bashful",
+      "Address": "777 Diamond Lane, Mining Town, Colorado 70001"
+    }
+  ]
+}

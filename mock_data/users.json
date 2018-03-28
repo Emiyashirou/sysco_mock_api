@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "NAT": "bmer1290",
+      "Name": "Brad Merrell",
+      "Role": {
+        "Category": "Role",
+        "LookupId": 1,
+        "LookupValue": "Admin"
+      }
+    },
+    {
+      "NAT": "mrud1287",
+      "Name": "Monika Rudra",
+      "Role": {
+        "Category": "Role",
+        "LookupId": 2,
+        "LookupValue": "Corporate"
+      }
+    },
+    {
+      "NAT": "rston1288",
+      "Name": "Rob Stone",
+      "Role": {
+        "Category": "Role",
+        "LookupId": 3,
+        "LookupValue": "OpCo Leader"
+      },
+      "OpCo": {
+        "OpCo": 1,
+        "Name": "Texas"
+      }
+    },
+    {
+      "NAT": "dstel1289",
+      "Name": "Derreck Stellpflug",
+      "Role": {
+        "Category": "Role",
+        "LookupId": 1,
+        "LookupValue": "Admin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "Category": "Role",
+      "LookupId": 1,
+      "LookupValue": "Admin"
+    },
+    {
+      "Category": "Role",
+      "LookupId": 2,
+      "LookupValue": "Corporate User"
+    },
+    {
+      "Category": "Role",
+      "LookupId": 3,
+      "LookupValue": "OpCo Leader"
+    }
+  ]
+}

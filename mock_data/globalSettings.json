@@ -1,0 +1,94 @@
+{
+  "data": {
+    "GPOEligibilityRequirements": {
+      "MinimumLocations": 5,
+      "MinimumNetSales": 1000000
+    },
+    "DefaultMarginSchedules": [
+      {
+        "Category": "HLTHCAR/HOSPLTY",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "DAIRY PRODUCTS",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "MEATS",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "SEAFOOD",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "POULTRY",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "FROZEN",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "CANNED AND DRY",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "PAPER & DISP",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "SUPP & EQUIP",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "CHEMICAL/JANTRL",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "PRODUCE",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      },
+      {
+        "Category": "DISPENSE BEVRG",
+        "Margin": 9.99,
+        "Markup": 9.99,
+        "FeePerCase": 9.99,
+        "FeePerPound": 9.99
+      }
+    ]
+  }
+}

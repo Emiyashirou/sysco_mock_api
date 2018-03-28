@@ -1,0 +1,39 @@
+2018/03/28 09:44:59 Connected to Docker 1.35
+2018/03/28 09:44:59 Fetching lambci/lambda:nodejs6.10 image for nodejs6.10 runtime...
+2018/03/28 09:45:00 Fetching lambci/lambda:nodejs6.10 image for nodejs6.10 runtime...
+2018/03/28 09:45:01 Fetching lambci/lambda:nodejs6.10 image for nodejs6.10 runtime...
+
+
+You can now browse to the above endpoints to invoke your functions.
+You do not need to restart/reload SAM CLI while working on your functions,
+changes will be reflected instantly/automatically. You only need to restart
+SAM CLI if you update your AWS SAM template.
+
+2018/03/28 09:45:07 Invoking opCos.handler (nodejs6.10)
+2018/03/28 09:45:07 Mounting /c/workplace/project/sysco/mock_api as /var/task:ro inside runtime container
+[32mSTART RequestId: 04128acb-e349-1c5c-5d3a-a6c923a1081a Version: $LATEST[0m
+[34m2018-03-28T14:45:08.664Z	04128acb-e349-1c5c-5d3a-a6c923a1081a	[0m{ httpMethod: 'GET',
+  body: '',
+  resource: '/opcos/001',
+  requestContext: 
+   { resourcePath: '/opcos/001',
+     httpMethod: 'GET',
+     stage: 'prod',
+     identity: { sourceIp: '127.0.0.1:58076' } },
+  queryStringParameters: {},
+  headers: 
+   { Accept: '*/*',
+     'Accept-Encoding': 'gzip, deflate, br',
+     'Accept-Language': 'en-US,en;q=0.9',
+     'Cache-Control': 'no-cache',
+     Connection: 'keep-alive',
+     'Postman-Token': '30c3e028-d9c4-1e5a-3f55-db1c50fd2603',
+     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' },
+  pathParameters: { id: '001' },
+  stageVariables: null,
+  path: '/opcos/001',
+  isBase64Encoded: false }
+[34m2018-03-28T14:45:08.682Z	04128acb-e349-1c5c-5d3a-a6c923a1081a	[0mTypeError: opcos.filter is not a function
+    at exports.handler (/var/task/opCos.js:13:23)
+2018/03/28 09:45:08 [31mFunction returned an invalid response (must include one of: body, headers or statusCode in the response object): unexpected end of JSON input
+[0m

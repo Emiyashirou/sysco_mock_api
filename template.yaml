@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Sysco Mock APIs
+
+Resources:
+
+  Products:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: globalSettings.handler
+      Runtime: nodejs6.10
+      Events:
+        GetGlobalSettings:
+          Type: Api
+          Properties:
+            Path: /global-settings/{id}
+            Method: get
+        PostGlobalSettings:
+          Type: Api
+          Properties:
+            Path: /global-settings/{id}
+            Method: post
+        PutGlobalSettings:
+          Type: Api
+          Properties:
+            Path: /global-settings/{id}
+            Method: put
+
+  Looksup:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: looksup.handler
+      Runtime: nodejs6.10
+      Events:
+        GetLooksupAll:
+          Type: Api
+          Properties:
+            Path: /looksup
+            Method: get
+        GetLooksupByCategory:
+          Type: Api
+          Properties:
+            Path: /looksup/{category}
+            Method: get
+
+  OpCos:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: opCos.handler
+      Runtime: nodejs6.10
+      Events:
+        GetOpCosAll:
+          Type: Api
+          Properties:
+            Path: /opcos
+            Method: get
+        GetOpCosById:
+          Type: Api
+          Properties:
+            Path: /opcos/{id}
+            Method: get
