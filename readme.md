@@ -8,47 +8,85 @@ sam local start-api --log-file ./output.log
 
 # small note
 
-You don't need to restart to make changes in your handers work
+You don't need to restart to make changes in your handlers work
 
 # APIs available
 
-http://127.0.0.1:3000/groups [GET]
+## http://127.0.0.1:3000/groups [GET]
 
-http://127.0.0.1:3000/groups/{id} [GET]
+Get groups list.
 
-http://127.0.0.1:3000/groups [POST]
+## http://127.0.0.1:3000/groups/{id} [GET]
 
-http://127.0.0.1:3000/groups/{id} [PUT]
+Get one group by id. E.g.: GET - http://127.0.0.1:3000/groups/01
 
-http://127.0.0.1:3000/locations [GET]
+## http://127.0.0.1:3000/groups [POST]
 
-http://127.0.0.1:3000/locations/{id} [GET]
+Add new group, handler will do nothing except return 200.
 
-http://127.0.0.1:3000/locations [POST]
+## http://127.0.0.1:3000/groups/{id} [PUT]
 
-http://127.0.0.1:3000/locations/{id} [PUT]
+Update group by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/groups/01
 
-http://127.0.0.1:3000/looksup [GET]
+## http://127.0.0.1:3000/locations [GET]
 
-http://127.0.0.1:3000/looksup/{category} [GET]
+Get locations list.
 
-http://127.0.0.1:3000/opcos [GET]
+## http://127.0.0.1:3000/locations/{id} [GET]
 
-http://127.0.0.1:3000/opcos/{id} [GET]
+Get one location by id. E.g.: GET - http://127.0.0.1:3000/locations/01-000001
 
-http://127.0.0.1:3000/global-settings/{id} [GET]
+## http://127.0.0.1:3000/locations [POST]
 
-http://127.0.0.1:3000/global-settings/{id} [POST]
+Add new location, handler will do nothing except return 200.
 
-http://127.0.0.1:3000/global-settings/{id} [PUT]
+## http://127.0.0.1:3000/locations/{id} [PUT]
 
-http://127.0.0.1:3000/users/{id} [PUT]
+Update location by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/locations/01-000001
 
-http://127.0.0.1:3000/users [GET]
+## http://127.0.0.1:3000/looksup [GET]
 
-http://127.0.0.1:3000/users/{id} [GET]
+This API is empty for now.
 
-http://127.0.0.1:3000/users [POST]
+## http://127.0.0.1:3000/looksup/{category} [GET]
+
+Look up all roles. E.g.: GET - http://127.0.0.1:3000/looksup/Roles
+
+## http://127.0.0.1:3000/opcos [GET]
+
+Get OpCos list.
+
+## http://127.0.0.1:3000/opcos/{id} [GET]
+
+Get one OpCo by id. E.g.: GET - http://127.0.0.1:3000/opcos/001
+
+## http://127.0.0.1:3000/global-settings/{id} [GET]
+
+Get global settings by id, but currently id doesn't matter. E.g.: GET - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/global-settings/{id} [POST]
+
+Post global settings, handler will do nothing except return 200. E.g.: POST - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/global-settings/{id} [PUT]
+
+Put global settings, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/users/{id} [PUT]
+
+Update user by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/users/001
+
+## http://127.0.0.1:3000/users [GET]
+
+Get user list.
+
+## http://127.0.0.1:3000/users/{id} [GET]
+
+Get one user by id. E.g.: GET - http://127.0.0.1:3000/users/001
+
+## http://127.0.0.1:3000/users [POST]
+
+Add new user, handler will do nothing except return 200.
 
 # Guide
 

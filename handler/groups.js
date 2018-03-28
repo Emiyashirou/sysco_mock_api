@@ -18,7 +18,7 @@ exports.handler = (event, context, callback) => {
         });
         callback(null, {body: JSON.stringify({data: spe_group}), statusCode: 200});
         break;
-      case "POST":
+      case "PUT":
         callback(null, {statusCode: 200});
         break;
       default:
@@ -31,7 +31,7 @@ exports.handler = (event, context, callback) => {
           var groups_json = JSON.parse(fs.readFileSync("mock_data/groups.json"));
           callback(null, {body: JSON.stringify(groups_json), statusCode: 200});
           break;
-        case "PUT":
+        case "POST":
           callback(null, {statusCode: 200});
           break;
       }
