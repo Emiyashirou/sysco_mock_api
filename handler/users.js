@@ -12,13 +12,13 @@ exports.handler = (event, context, callback) => {
         var users_json = JSON.parse(fs.readFileSync("mock_data/users.json"));
         var spe_user = {};
         users_json.data.map(user => {
-          if(user.Role.LookupId.toString() === id){
+          if(user.Id.toString() === id){
             spe_user = user;
           }
         });
         callback(null, {body: JSON.stringify({data: spe_user}), statusCode: 200});
         break;
-      case "POST":
+      case "PUT":
         callback(null, {statusCode: 200});
         break;
       default:
@@ -31,7 +31,7 @@ exports.handler = (event, context, callback) => {
           var users_json = JSON.parse(fs.readFileSync("mock_data/users.json"));
           callback(null, {body: JSON.stringify(users_json), statusCode: 200});
           break;
-        case "PUT":
+        case "POST":
           callback(null, {statusCode: 200});
           break;
       }
