@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "Id": "01",
       "GroupName": "No Way Jose",
       "AccountType": "TRS",
       "OperationType": "Restaurant",
@@ -18,6 +19,7 @@
       ]
     },
     {
+      "Id": "02",
       "GroupName": "Alicia's Mexican Grille",
       "AccountType": "LLC",
       "OperationType": "Restaurant",
@@ -43,6 +45,7 @@
       ]
     },
     {
+      "Id": "03",
       "GroupName": "9ers Grill",
       "AccountType": "LCC",
       "OperationType": "Restaurant",
