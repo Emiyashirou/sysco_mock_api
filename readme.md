@@ -1,3 +1,6 @@
+# Part 1
+**This is the part for who want to know some details, if you just want to setup Mock API go to [Link to Part 2](#part-2)**
+
 # start aws sam
 
 sam local start-api
@@ -214,3 +217,111 @@ Sample event json
 ## 4, Call sam to invoke lambda function, using docker image lambci/lambda
 
 sam local invoke CreateThumbnailJavaFcuntion -e .\\event\\create_thumbnail.json --log-file ./output.log ------a sample call of sam local, write reuslt into a file 'output.log'
+
+# Part 2
+**This is the part for who don't want or need to know the detail, just setup mock API**
+
+# Steps
+
+## 1, Install Docker
+Follow instructions here: https://docs.docker.com/install/
+After docker is installed, start it, and do:
+```
+docker pull lambci/lambda
+docker image ls
+```
+Those commands pull the image from docker hub and list images you have
+## 2, Install AWS sam local
+Follow instructions here: https://github.com/awslabs/aws-sam-local
+```
+sam --version
+```
+This command shows sam version to verify it is installed successfully.
+## 3, Clone Mock API repo from git
+Clone from this repo: https://github.com/Emiyashirou/sysco_mock_api
+## 4, Start AWS sam
+Go to the directory you just cloned, start aws sam
+```
+sam local start-api
+```
+or start sam sam with local logging
+```
+sam local start-api --log-file ./output.log
+```
+# Appendix: APIs available
+
+## http://127.0.0.1:3000/groups [GET]
+
+Get groups list.
+
+## http://127.0.0.1:3000/groups/{id} [GET]
+
+Get one group by id. E.g.: GET - http://127.0.0.1:3000/groups/01
+
+## http://127.0.0.1:3000/groups [POST]
+
+Add new group, handler will do nothing except return 200.
+
+## http://127.0.0.1:3000/groups/{id} [PUT]
+
+Update group by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/groups/01
+
+## http://127.0.0.1:3000/locations [GET]
+
+Get locations list.
+
+## http://127.0.0.1:3000/locations/{id} [GET]
+
+Get one location by id. E.g.: GET - http://127.0.0.1:3000/locations/01-000001
+
+## http://127.0.0.1:3000/locations [POST]
+
+Add new location, handler will do nothing except return 200.
+
+## http://127.0.0.1:3000/locations/{id} [PUT]
+
+Update location by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/locations/01-000001
+
+## http://127.0.0.1:3000/looksup [GET]
+
+This API is empty for now.
+
+## http://127.0.0.1:3000/looksup/{category} [GET]
+
+Look up all roles. E.g.: GET - http://127.0.0.1:3000/looksup/Roles
+
+## http://127.0.0.1:3000/opcos [GET]
+
+Get OpCos list.
+
+## http://127.0.0.1:3000/opcos/{id} [GET]
+
+Get one OpCo by id. E.g.: GET - http://127.0.0.1:3000/opcos/001
+
+## http://127.0.0.1:3000/global-settings/{id} [GET]
+
+Get global settings by id, but currently id doesn't matter. E.g.: GET - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/global-settings/{id} [POST]
+
+Post global settings, handler will do nothing except return 200. E.g.: POST - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/global-settings/{id} [PUT]
+
+Put global settings, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/users/{id} [PUT]
+
+Update user by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/users/001
+
+## http://127.0.0.1:3000/users [GET]
+
+Get user list.
+
+## http://127.0.0.1:3000/users/{id} [GET]
+
+Get one user by id. E.g.: GET - http://127.0.0.1:3000/users/001
+
+## http://127.0.0.1:3000/users [POST]
+
+Add new user, handler will do nothing except return 200.
