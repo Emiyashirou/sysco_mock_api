@@ -1,5 +1,5 @@
 # Part 1
-**This is the part for who want to know some details, if you just want to setup Mock API go to [Link to Part 2](#part-2)**
+**This is the part for who want to know some details, if you just want to setup Mock API go to [Part 2](#part-2)**
 
 # Guide
 
@@ -165,6 +165,8 @@ docker pull lambci/lambda
 docker image ls
 ```
 Those commands pull the image from docker hub and list images you have
+### small note
+If you have error: "image operating system "linux" cannot be used on this platform", switch docker to Linux Container
 ## 2, Install npm
 Follow instructions here: https://www.npmjs.com/get-npm
 npm comes together with Node, so normally you only need to install Node, here is the way: https://nodejs.org/en/download/
