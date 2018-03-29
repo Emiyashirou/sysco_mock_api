@@ -159,6 +159,9 @@ You don't need to restart to make changes in your handlers work
 
 ## 1, Install Docker
 Follow instructions here: https://docs.docker.com/install/
+
+Community edition is good enough for testing, an installation option example: Community edition, Windows desktop, Stable version
+
 After docker is installed, start it, and do:
 ```
 docker pull lambci/lambda
@@ -166,10 +169,16 @@ docker image ls
 ```
 Those commands pull the image from docker hub and list images you have
 ### small note
-If you have error: "image operating system "linux" cannot be used on this platform", switch docker to Linux Container
+The image you'll use is linux based, so if you have error: "image operating system 'linux' cannot be used on this platform", switch docker to Linux Container in docker settings
 ## 2, Install npm
 Follow instructions here: https://www.npmjs.com/get-npm
+
 npm comes together with Node, so normally you only need to install Node, here is the way: https://nodejs.org/en/download/
+
+```
+Node -v
+```
+This command verifies the installation. You may need to close and reopen cmd window.
 ## 3, Install AWS sam local
 Follow instructions here: https://github.com/awslabs/aws-sam-local
 ```
@@ -179,7 +188,9 @@ This command shows sam version to verify it is installed successfully.
 ## 4, Clone Mock API repo from git
 Clone from this repo: https://github.com/Emiyashirou/sysco_mock_api
 ## 5, Start AWS sam
-Go to the directory you just cloned, start aws sam
+From the cmd, navigate to the directory you just cloned, to make sure you are in the correct folder, use command "dir" in windows or "ls" in linux to list the files, make sure there is a template.yaml in current folder
+
+Then start aws sam
 ```
 sam local start-api
 ```
