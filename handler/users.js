@@ -5,7 +5,6 @@ var fs = require("fs");
 exports.handler = (event, context, callback) => {
 
   let id = (event.pathParameters || {}).id || false;
-
   if(id){
     switch (event.httpMethod) {
       case "GET":
