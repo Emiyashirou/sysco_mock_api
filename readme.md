@@ -140,17 +140,18 @@ a sample call of sam local, write reuslt into a file 'output.log'
 sam local invoke CreateThumbnailJavaFcuntion -e .\\event\\create_thumbnail.json --log-file ./output.log
 ```
 ## 5, start aws sam
+
 start sam
 ```
 sam local start-api
 ```
-or start sam with local logging
-```
-sam local start-api --log-file ./output.log
-```
-or start sam on a specific port
+start sam on a specific port
 ```
 sam local start-api -p 5858
+```
+or start sam on a specific port with local logging
+```
+sam local start-api --log-file ./output.log -p 5858
 ```
 ### small note
 
@@ -198,112 +199,112 @@ Then start sam
 ```
 sam local start-api
 ```
-or start sam with local logging
-```
-sam local start-api --log-file ./output.log
-```
-or start sam on a specific port
+start sam on a specific port
 ```
 sam local start-api -p 5858
 ```
+or start sam on a specific port with local logging
+```
+sam local start-api --log-file ./output.log -p 5858
+```
 # Appendix: APIs available
 
-## http://127.0.0.1:3000/groups [GET]
+## http://127.0.0.1:5858/groups [GET]
 
 Get groups list.
 
-## http://127.0.0.1:3000/groups/{id} [GET]
+## http://127.0.0.1:5858/groups/{id} [GET]
 
-Get one group by id. E.g.: GET - http://127.0.0.1:3000/groups/01
+Get one group by id. E.g.: GET - http://127.0.0.1:5858/groups/01
 
-## http://127.0.0.1:3000/groups [POST]
+## http://127.0.0.1:5858/groups [POST]
 
 Add new group, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/groups/{id} [PUT]
+## http://127.0.0.1:5858/groups/{id} [PUT]
 
-Update group by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/groups/01
+Update group by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/groups/01
 
-## http://127.0.0.1:3000/groups [OPTIONS]
+## http://127.0.0.1:5858/groups [OPTIONS]
 
 Get options, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/locations [GET]
+## http://127.0.0.1:5858/locations [GET]
 
 Get locations list.
 
-## http://127.0.0.1:3000/locations/{id} [GET]
+## http://127.0.0.1:5858/locations/{id} [GET]
 
-Get one location by id. E.g.: GET - http://127.0.0.1:3000/locations/01-000001
+Get one location by id. E.g.: GET - http://127.0.0.1:5858/locations/01-000001
 
-## http://127.0.0.1:3000/locations [OPTIONS]
+## http://127.0.0.1:5858/locations [OPTIONS]
 
 Get options, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/locations [POST]
+## http://127.0.0.1:5858/locations [POST]
 
 Add new location, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/locations/{id} [PUT]
+## http://127.0.0.1:5858/locations/{id} [PUT]
 
-Update location by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/locations/01-000001
+Update location by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/locations/01-000001
 
-## http://127.0.0.1:3000/looksup [GET]
+## http://127.0.0.1:5858/looksup [GET]
 
 This API is empty for now.
 
-## http://127.0.0.1:3000/looksup/{category} [GET]
+## http://127.0.0.1:5858/looksup/{category} [GET]
 
-Look up all roles. E.g.: GET - http://127.0.0.1:3000/looksup/Roles
+Look up all roles. E.g.: GET - http://127.0.0.1:5858/looksup/Roles
 
-## http://127.0.0.1:3000/looksup [OPTIONS]
+## http://127.0.0.1:5858/looksup [OPTIONS]
 
 Get options, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/opcos [GET]
+## http://127.0.0.1:5858/opcos [GET]
 
 Get OpCos list.
 
-## http://127.0.0.1:3000/opcos/{id} [GET]
+## http://127.0.0.1:5858/opcos/{id} [GET]
 
-Get one OpCo by id. E.g.: GET - http://127.0.0.1:3000/opcos/001
+Get one OpCo by id. E.g.: GET - http://127.0.0.1:5858/opcos/001
 
-## http://127.0.0.1:3000/opcos [OPTIONS]
+## http://127.0.0.1:5858/opcos [OPTIONS]
 
 Get options, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/global-settings [GET]
+## http://127.0.0.1:5858/global-settings [GET]
 
 Get global settings. E.g.: GET - http://127.0.0.1:3000/global-settings/1
 
-## http://127.0.0.1:3000/global-settings [POST]
+## http://127.0.0.1:5858/global-settings [POST]
 
-Post global settings, handler will do nothing except return 200. E.g.: POST - http://127.0.0.1:3000/global-settings/1
+Post global settings, handler will do nothing except return 200. E.g.: POST - http://127.0.0.1:5858/global-settings/1
 
-## http://127.0.0.1:3000/global-settings [PUT]
+## http://127.0.0.1:5858/global-settings [PUT]
 
-Put global settings, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/global-settings/1
+Put global settings, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/global-settings/1
 
-## http://127.0.0.1:3000/global-settings [OPTIONS]
+## http://127.0.0.1:5858/global-settings [OPTIONS]
 
 Get options, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/users/{id} [PUT]
+## http://127.0.0.1:5858/users/{id} [PUT]
 
-Update user by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/users/001
+Update user by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/users/001
 
-## http://127.0.0.1:3000/users [GET]
+## http://127.0.0.1:5858/users [GET]
 
 Get user list.
 
-## http://127.0.0.1:3000/users/{id} [GET]
+## http://127.0.0.1:5858/users/{id} [GET]
 
-Get one user by id. E.g.: GET - http://127.0.0.1:3000/users/001
+Get one user by id. E.g.: GET - http://127.0.0.1:5858/users/001
 
-## http://127.0.0.1:3000/users [POST]
+## http://127.0.0.1:5858/users [POST]
 
 Add new user, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/users [OPTIONS]
+## http://127.0.0.1:5858/users [OPTIONS]
 
 Get options, handler will do nothing except return 200.
