@@ -148,6 +148,10 @@ or start sam with local logging
 ```
 sam local start-api --log-file ./output.log
 ```
+or start sam on a specific port
+```
+sam local start-api -p 5858
+```
 ### small note
 
 You don't need to restart to make changes in your handlers work
@@ -190,13 +194,17 @@ Clone from this repo: https://github.com/Emiyashirou/sysco_mock_api
 ## 5, Start AWS sam
 From the cmd, navigate to the directory you just cloned, to make sure you are in the correct folder, use command "dir" in windows or "ls" in linux to list the files, make sure there is a template.yaml in current folder
 
-Then start aws sam
+Then start sam
 ```
 sam local start-api
 ```
-or start sam sam with local logging
+or start sam with local logging
 ```
 sam local start-api --log-file ./output.log
+```
+or start sam on a specific port
+```
+sam local start-api -p 5858
 ```
 # Appendix: APIs available
 
@@ -216,6 +224,10 @@ Add new group, handler will do nothing except return 200.
 
 Update group by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/groups/01
 
+## http://127.0.0.1:3000/groups [OPTIONS]
+
+Get options, handler will do nothing except return 200.
+
 ## http://127.0.0.1:3000/locations [GET]
 
 Get locations list.
@@ -223,6 +235,10 @@ Get locations list.
 ## http://127.0.0.1:3000/locations/{id} [GET]
 
 Get one location by id. E.g.: GET - http://127.0.0.1:3000/locations/01-000001
+
+## http://127.0.0.1:3000/locations [OPTIONS]
+
+Get options, handler will do nothing except return 200.
 
 ## http://127.0.0.1:3000/locations [POST]
 
@@ -240,6 +256,10 @@ This API is empty for now.
 
 Look up all roles. E.g.: GET - http://127.0.0.1:3000/looksup/Roles
 
+## http://127.0.0.1:3000/looksup [OPTIONS]
+
+Get options, handler will do nothing except return 200.
+
 ## http://127.0.0.1:3000/opcos [GET]
 
 Get OpCos list.
@@ -248,17 +268,25 @@ Get OpCos list.
 
 Get one OpCo by id. E.g.: GET - http://127.0.0.1:3000/opcos/001
 
-## http://127.0.0.1:3000/global-settings/{id} [GET]
+## http://127.0.0.1:3000/opcos [OPTIONS]
 
-Get global settings by id, but currently id doesn't matter. E.g.: GET - http://127.0.0.1:3000/global-settings/1
+Get options, handler will do nothing except return 200.
 
-## http://127.0.0.1:3000/global-settings/{id} [POST]
+## http://127.0.0.1:3000/global-settings [GET]
+
+Get global settings. E.g.: GET - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/global-settings [POST]
 
 Post global settings, handler will do nothing except return 200. E.g.: POST - http://127.0.0.1:3000/global-settings/1
 
-## http://127.0.0.1:3000/global-settings/{id} [PUT]
+## http://127.0.0.1:3000/global-settings [PUT]
 
 Put global settings, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:3000/global-settings/1
+
+## http://127.0.0.1:3000/global-settings [OPTIONS]
+
+Get options, handler will do nothing except return 200.
 
 ## http://127.0.0.1:3000/users/{id} [PUT]
 
@@ -275,3 +303,7 @@ Get one user by id. E.g.: GET - http://127.0.0.1:3000/users/001
 ## http://127.0.0.1:3000/users [POST]
 
 Add new user, handler will do nothing except return 200.
+
+## http://127.0.0.1:3000/users [OPTIONS]
+
+Get options, handler will do nothing except return 200.

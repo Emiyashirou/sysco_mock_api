@@ -10,21 +10,26 @@ Resources:
       Handler: handler/globalSettings.handler
       Runtime: nodejs6.10
       Events:
-        GetGlobalSettingsById:
+        GetGlobalSettings:
           Type: Api
           Properties:
-            Path: /global-settings/{id}
+            Path: /global-settings
             Method: get
-        PostGlobalSettingsById:
+        PostGlobalSettings:
           Type: Api
           Properties:
-            Path: /global-settings/{id}
+            Path: /global-settings
             Method: post
-        PutGlobalSettingsById:
+        PutGlobalSettings:
           Type: Api
           Properties:
-            Path: /global-settings/{id}
+            Path: /global-settings
             Method: put
+        OptionsGlobalSettings:
+          Type: Api
+          Properties:
+            Path: /global-settings
+            Method: options
 
   Looksup:
     Type: AWS::Serverless::Function
@@ -42,6 +47,11 @@ Resources:
           Properties:
             Path: /looksup/{category}
             Method: get
+        OptionsLooksup:
+          Type: Api
+          Properties:
+            Path: /looksup
+            Method: options
 
   OpCos:
     Type: AWS::Serverless::Function
@@ -59,6 +69,11 @@ Resources:
           Properties:
             Path: /opcos/{id}
             Method: get
+        OptionsOpCos:
+          Type: Api
+          Properties:
+            Path: /opcos
+            Method: options
 
   Users:
     Type: AWS::Serverless::Function
@@ -86,6 +101,11 @@ Resources:
           Properties:
             Path: /users/{id}
             Method: put
+        OptionsUsers:
+          Type: Api
+          Properties:
+            Path: /users
+            Method: options
 
   Groups:
     Type: AWS::Serverless::Function
@@ -113,6 +133,11 @@ Resources:
           Properties:
             Path: /groups/{id}
             Method: put
+        OptionsGroups:
+          Type: Api
+          Properties:
+            Path: /groups
+            Method: options
 
   Locations:
     Type: AWS::Serverless::Function
@@ -140,3 +165,8 @@ Resources:
           Properties:
             Path: /locations/{id}
             Method: put
+        OptionsLocations:
+          Type: Api
+          Properties:
+            Path: /locations
+            Method: options
