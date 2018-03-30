@@ -275,15 +275,15 @@ Get options, handler will do nothing except return 200.
 
 ## http://127.0.0.1:5858/global-settings [GET]
 
-Get global settings. E.g.: GET - http://127.0.0.1:3000/global-settings/1
+Get global settings.
 
 ## http://127.0.0.1:5858/global-settings [POST]
 
-Post global settings, handler will do nothing except return 200. E.g.: POST - http://127.0.0.1:5858/global-settings/1
+Post global settings, handler will do nothing except return 200.
 
 ## http://127.0.0.1:5858/global-settings [PUT]
 
-Put global settings, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/global-settings/1
+Put global settings, handler will do nothing except return 200.
 
 ## http://127.0.0.1:5858/global-settings [OPTIONS]
 
