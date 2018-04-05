@@ -9,6 +9,7 @@ Resources:
     Properties:
       Handler: handler/globalSettings.handler
       Runtime: nodejs6.10
+      Timeout: 20
       Events:
         GetGlobalSettings:
           Type: Api
@@ -36,6 +37,7 @@ Resources:
     Properties:
       Handler: handler/looksup.handler
       Runtime: nodejs6.10
+      Timeout: 20
       Events:
         GetLooksupAll:
           Type: Api
@@ -58,6 +60,7 @@ Resources:
     Properties:
       Handler: handler/opCos.handler
       Runtime: nodejs6.10
+      Timeout: 20
       Events:
         GetOpCosAll:
           Type: Api
@@ -80,6 +83,7 @@ Resources:
     Properties:
       Handler: handler/users.handler
       Runtime: nodejs6.10
+      Timeout: 20
       Events:
         GetUsersAll:
           Type: Api
@@ -112,6 +116,7 @@ Resources:
     Properties:
       Handler: handler/groups.handler
       Runtime: nodejs6.10
+      Timeout: 20
       Events:
         GetGroupsAll:
           Type: Api
@@ -144,6 +149,7 @@ Resources:
     Properties:
       Handler: handler/locations.handler
       Runtime: nodejs6.10
+      Timeout: 20
       Events:
         GetLocationsAll:
           Type: Api
