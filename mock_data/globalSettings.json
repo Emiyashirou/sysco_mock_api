@@ -7,87 +7,87 @@
     "DefaultMarginSchedules": [
       {
         "Category": "HLTHCAR/HOSPLTY",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 34.5,
+        "Markup": 0,
+        "FeePerCase": 2.45,
+        "FeePerPound": 13.67
       },
       {
         "Category": "DAIRY PRODUCTS",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 0,
+        "Markup": 4.6,
+        "FeePerCase": 36.78,
+        "FeePerPound": 23.46
       },
       {
         "Category": "MEATS",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 0,
+        "Markup": 9.2,
+        "FeePerCase": 0.33,
+        "FeePerPound": 30.29
       },
       {
         "Category": "SEAFOOD",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 0,
+        "Markup": 9.9,
+        "FeePerCase": 12.0,
+        "FeePerPound": 23.8
       },
       {
         "Category": "POULTRY",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 78.9,
+        "Markup": 0,
+        "FeePerCase": 45.59,
+        "FeePerPound": 9.09
       },
       {
         "Category": "FROZEN",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 56.0,
+        "Markup": 0,
+        "FeePerCase": 2.12,
+        "FeePerPound": 4.67
       },
       {
         "Category": "CANNED AND DRY",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 0,
+        "Markup": 89.1,
+        "FeePerCase": 45.78,
+        "FeePerPound": 0.98
       },
       {
         "Category": "PAPER & DISP",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 90.6,
+        "Markup": 0,
+        "FeePerCase": 45.90,
+        "FeePerPound": 2.00
       },
       {
         "Category": "SUPP & EQUIP",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 56.0,
+        "Markup": 0,
+        "FeePerCase": 3.34,
+        "FeePerPound": 4.59
       },
       {
         "Category": "CHEMICAL/JANTRL",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 100.0,
+        "Markup": 0,
+        "FeePerCase": 34.67,
+        "FeePerPound": 7.8
       },
       {
         "Category": "PRODUCE",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 0,
+        "Markup": 0,
+        "FeePerCase": 9.90,
+        "FeePerPound": 9.08
       },
       {
         "Category": "DISPENSE BEVRG",
-        "Margin": 9.99,
-        "Markup": 9.99,
-        "FeePerCase": 9.99,
-        "FeePerPound": 9.99
+        "Margin": 45.0,
+        "Markup": 0,
+        "FeePerCase": 8.00,
+        "FeePerPound": 6.00
       }
     ]
   }
