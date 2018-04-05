@@ -207,6 +207,18 @@ or start sam on a specific port with local logging
 ```
 sam local start-api --log-file ./output.log -p 5858
 ```
+## 6, Possible Errors or Warnings
+If you get an error as below:
+```
+unable to use container host config override file from '$HOME/.config/aws-sam-local/container-config.json': HOME env variable is not set
+```
+The reason is HOME is not set in system variables, if you are using a windows system, it can be done by “control panel” - “edit the system environment variables” - tab “advanced” – “environment variables” and then add HOME into system variables. It can be the user folder, e.g.: "C:\Users\Your.Name".
+
+If you get an warning as below:
+```
+WARNING: No AWS credentials found. Missing credentials may lead to slow startup times as detailed in https://github.com/awslabs/aws-sam-local/issues/134
+```
+For this warning, it’s because sam local is using AWS CLI and AWS CLI can set AWS account information, but it’s not required, you can ignore it for now.
 # Appendix: APIs available
 
 ## http://127.0.0.1:5858/groups [GET]
