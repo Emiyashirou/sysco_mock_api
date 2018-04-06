@@ -19,7 +19,7 @@ exports.handler = (event, context, callback) => {
                 callback(null, {body: JSON.stringify({data: spe_group}), statusCode: 200});
                 break;
             case "PUT":
-                callback(null, {statusCode: 200});
+                callback(null, {body: event.body, statusCode: 200});
                 break;
             default:
                 console.log("Error: unsupported HTTP method (" + event.httpMethod + ")");
@@ -32,10 +32,10 @@ exports.handler = (event, context, callback) => {
                 callback(null, {body: JSON.stringify(groups_json), statusCode: 200});
                 break;
             case "POST":
-                callback(null, {statusCode: 200});
+                callback(null, {body: event.body, statusCode: 200});
                 break;
             case "OPTIONS":
-                callback(null, {statusCode: 200});
+                callback(null, {body: event.body, statusCode: 200});
                 break;
         }
     }

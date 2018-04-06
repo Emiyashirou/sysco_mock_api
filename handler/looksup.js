@@ -14,11 +14,11 @@ exports.handler = (event, context, callback) => {
                     callback(null, {body: JSON.stringify(looksup_roles), statusCode: 200});
                 } else {
                     //Empty for now
-                    callback(null, {statusCode: 200});
+                    callback(null, {body: event.body, statusCode: 200});
                 }
                 break;
             case "OPTIONS":
-                callback(null, {statusCode: 200});
+                callback(null, {body: event.body, statusCode: 200});
                 break;
             default:
                 // Send HTTP 501: Not Implemented
@@ -27,7 +27,7 @@ exports.handler = (event, context, callback) => {
         }
     } else {
         // Empty for now
-        callback(null, {statusCode: 200});
+        callback(null, {body: event.body, statusCode: 200});
     }
 
 }

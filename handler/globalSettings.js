@@ -12,15 +12,15 @@ exports.handler = (event, context, callback) => {
             break;
         case "POST":
             // Send HTTP 200: OK, mock a successful POST
-            callback(null, {statusCode: 200});
+            callback(null, {body: event.body, statusCode: 200});
             break;
         case "PUT":
             // Send HTTP 200: OK, mock a successful PUT
-            callback(null, {statusCode: 200});
+            callback(null, {body: event.body, statusCode: 200});
             break;
         case "OPTIONS":
             // Send HTTP 200: OK, mock a successful PUT
-            callback(null, {statusCode: 200});
+            callback(null, {body: event.body, statusCode: 200});
             break;
         default:
             // Send HTTP 501: Not Implemented
