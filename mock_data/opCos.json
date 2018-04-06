@@ -3,520 +3,372 @@
     {
       "OpCo": "001",
       "Name": "Sysco Jackson",
-      "Market": "Southeast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS001A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "002",
       "Name": "Sysco Atlanta",
-      "Market": "Mid-Atlantic",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS002A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "003",
       "Name": "Sysco Jacksonville",
-      "Market": "Southeast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS003A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "004",
       "Name": "Sysco Central California",
-      "Market": "Pacific",
-      "Size": "Jumbo",
-      "OdbcLink": "AS004A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "005",
       "Name": "Sysco Intermountain",
-      "Market": "Rocky Mountain",
-      "Size": "Colossal",
-      "OdbcLink": "AS005A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "006",
       "Name": "Sysco North Texas",
-      "Market": "Southwest",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS006A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "007",
       "Name": "Sysco Virginia",
-      "Market": "Mid-Atlantic",
-      "Size": "Colossal",
-      "OdbcLink": "AS007A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "008",
       "Name": "Sysco Northern New England",
-      "Market": "Northeast",
-      "Size": "Large",
-      "OdbcLink": "AS008A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "009",
       "Name": "Sysco Pittsburgh",
-      "Market": "Mideast",
-      "Size": "Large",
-      "OdbcLink": "AS009A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "010",
       "Name": "Sysco Eastern Maryland",
-      "Market": "Mid-Atlantic",
-      "Size": "Colossal",
-      "OdbcLink": "AS010A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "011",
       "Name": "Sysco Louisville",
-      "Market": "Mideast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS011A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "012",
       "Name": "Sysco Baltimore",
-      "Market": "Mid-Atlantic",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS012A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "013",
       "Name": "Sysco Central Texas",
-      "Market": "Southwest",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS013A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "014",
       "Name": "Sysco Memphis",
-      "Market": "Mideast",
-      "Size": "Colossal",
-      "OdbcLink": "AS014A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "015",
       "Name": "Sysco Cleveland",
-      "Market": "Mideast",
-      "Size": "Colossal",
-      "OdbcLink": "AS015A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "016",
       "Name": "Sysco South Florida",
-      "Market": "Southeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS016A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "017",
       "Name": "Sysco Las Vegas",
-      "Market": "Rocky Mountain",
-      "Size": "Jumbo",
-      "OdbcLink": "AS017A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "018",
       "Name": "Sysco Baraboo",
-      "Market": "Midwest",
-      "Size": "Colossal",
-      "OdbcLink": "AS018A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "019",
       "Name": "Sysco Cincinnati",
-      "Market": "Mideast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS019A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "022",
       "Name": "Sysco Central Florida",
-      "Market": "Southeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS022A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "023",
       "Name": "Sysco New Orleans",
-      "Market": "Southwest",
-      "Size": "Colossal",
-      "OdbcLink": "AS023A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "024",
       "Name": "Sysco Chicago",
-      "Market": "Midwest",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS024A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "025",
       "Name": "Sysco Albany",
-      "Market": "Northeast",
-      "Size": "Colossal",
-      "OdbcLink": "AS025A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "026",
       "Name": "Sysco Oklahoma",
-      "Market": "Southwest",
-      "Size": "Large",
-      "OdbcLink": "AS026A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "027",
       "Name": "Sysco Syracuse",
-      "Market": "Northeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS027A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "029",
       "Name": "Sysco Arkansas",
-      "Market": "Southwest",
-      "Size": "Large",
-      "OdbcLink": "AS029A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "031",
       "Name": "Sysco Sacramento",
-      "Market": "Pacific",
-      "Size": "Jumbo",
-      "OdbcLink": "AS031A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "032",
       "Name": "Sysco Southeast Florida",
-      "Market": "Southeast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS032A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "035",
       "Name": "Sysco Eastern Wisconsin",
-      "Market": "Midwest",
-      "Size": "Jumbo",
-      "OdbcLink": "AS035A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "036",
       "Name": "Sysco San Diego",
-      "Market": "Pacific",
-      "Size": "Jumbo",
-      "OdbcLink": "AS036A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "037",
       "Name": "Sysco West Coast Florida",
-      "Market": "Southeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS037A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "038",
       "Name": "Sysco Indianapolis",
-      "Market": "Mideast",
-      "Size": "Large",
-      "OdbcLink": "AS038A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "039",
       "Name": "Sysco Iowa",
-      "Market": "Midwest",
-      "Size": "Large",
-      "OdbcLink": "AS039A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "040",
       "Name": "Sysco Idaho",
-      "Market": "Rocky Mountain",
-      "Size": "Medium",
-      "OdbcLink": "AS040A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "043",
       "Name": "Sysco Montana",
-      "Market": "Rocky Mountain",
-      "Size": "Jumbo",
-      "OdbcLink": "AS043A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "045",
       "Name": "Sysco Los Angeles",
-      "Market": "Pacific",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS045A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "046",
       "Name": "Sysco Central Alabama",
-      "Market": "Southeast",
-      "Size": "Large",
-      "OdbcLink": "AS046A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "047",
       "Name": "Sysco Minnesota",
-      "Market": "Midwest",
-      "Size": "Colossal",
-      "OdbcLink": "AS047A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "048",
       "Name": "Sysco Charlotte",
-      "Market": "Mid-Atlantic",
-      "Size": "Colossal",
-      "OdbcLink": "AS048A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "049",
       "Name": "Sysco Arizona",
-      "Market": "Rocky Mountain",
-      "Size": "Colossal",
-      "OdbcLink": "AS049A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "050",
       "Name": "Sysco San Francisco",
-      "Market": "Pacific",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS050A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "051",
       "Name": "Sysco Central Pennsylvania",
-      "Market": "Northeast",
-      "Size": "Colossal",
-      "OdbcLink": "AS051A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "052",
       "Name": "Sysco Portland",
-      "Market": "Pacific",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS052A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "054",
       "Name": "Sysco Connecticut",
-      "Market": "Northeast",
-      "Size": "Colossal",
-      "OdbcLink": "AS054A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "055",
       "Name": "Sysco Seattle",
-      "Market": "Pacific",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS055A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "056",
       "Name": "Sysco Boston",
-      "Market": "Northeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS056A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "057",
       "Name": "Sysco Kansas City",
-      "Market": "Rocky Mountain",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS057A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "058",
       "Name": "Sysco Detroit",
-      "Market": "Mideast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS058A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "059",
       "Name": "Sysco Denver",
-      "Market": "Rocky Mountain",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS059A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "060",
       "Name": "Sysco Nashville",
-      "Market": "Mideast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS060A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "061",
       "Name": "Sysco Lincoln",
-      "Market": "Rocky Mountain",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS061A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "064",
       "Name": "Sysco St. Louis",
-      "Market": "Midwest",
-      "Size": "Jumbo",
-      "OdbcLink": "AS064A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "066",
       "Name": "Sysco New Mexico",
-      "Market": "Rocky Mountain",
-      "Size": "Jumbo",
-      "OdbcLink": "AS066A"
+      "Market": "Rocky Mountain"
     },
     {
       "OpCo": "067",
       "Name": "Sysco Houston",
-      "Market": "Southwest",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS067A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "068",
       "Name": "Sysco Grand Rapids",
-      "Market": "Mideast",
-      "Size": "Jumbo",
-      "OdbcLink": "AS068A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "073",
       "Name": "Sysco Hampton Roads",
-      "Market": "Mid-Atlantic",
-      "Size": "Jumbo",
-      "OdbcLink": "AS073A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "075",
       "Name": "Sysco Philadelphia",
-      "Market": "Northeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS075A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "076",
       "Name": "Sysco Metro New York",
-      "Market": "Northeast",
-      "Size": "Super Colossal",
-      "OdbcLink": "AS076A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "078",
       "Name": "Sysco West Texas",
-      "Market": "Southwest",
-      "Size": "Large",
-      "OdbcLink": "AS078A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "101",
       "Name": "Sysco Ventura",
-      "Market": "Pacific",
-      "Size": "Jumbo",
-      "OdbcLink": "AS101A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "102",
       "Name": "Sysco Spokane",
-      "Market": "Pacific",
-      "Size": "Large",
-      "OdbcLink": "AS102A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "137",
       "Name": "Sysco Columbia",
-      "Market": "Mid-Atlantic",
-      "Size": "Colossal",
-      "OdbcLink": "AS137A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "163",
       "Name": "Sysco Raleigh",
-      "Market": "Mid-Atlantic",
-      "Size": "Jumbo",
-      "OdbcLink": "AS163A"
+      "Market": "Mid-Atlantic"
     },
     {
       "OpCo": "164",
       "Name": "Sysco Gulf Coast",
-      "Market": "Southeast",
-      "Size": "Large",
-      "OdbcLink": "AS164A"
+      "Market": "Southeast"
     },
     {
       "OpCo": "177",
       "Name": "RDC - NE Front Royal VA",
-      "Market": "",
-      "Size": "",
-      "OdbcLink": "AS177A"
+      "Market": ""
     },
     {
       "OpCo": "184",
       "Name": "RDC - 2 South East",
-      "Market": "",
-      "Size": "",
-      "OdbcLink": "AS184A"
+      "Market": ""
     },
     {
       "OpCo": "194",
       "Name": "Sysco Central Illinois",
-      "Market": "Midwest",
-      "Size": "Large",
-      "OdbcLink": "AS194A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "195",
       "Name": "Sysco North Dakota",
-      "Market": "Midwest",
-      "Size": "Medium",
-      "OdbcLink": "AS195A"
+      "Market": "Midwest"
     },
     {
       "OpCo": "240",
       "Name": "Corporate",
-      "Market": "",
-      "Size": "",
-      "OdbcLink": "AS240A"
+      "Market": ""
     },
     {
       "OpCo": "288",
       "Name": "Sysco Knoxville",
-      "Market": "Mideast",
-      "Size": "Large",
-      "OdbcLink": "AS288A"
+      "Market": "Mideast"
     },
     {
       "OpCo": "293",
       "Name": "Sysco East Texas",
-      "Market": "Southwest",
-      "Size": "Large",
-      "OdbcLink": "AS293A"
+      "Market": "Southwest"
     },
     {
       "OpCo": "306",
       "Name": "Sysco Long Island",
-      "Market": "Northeast",
-      "Size": "Large",
-      "OdbcLink": "AS306A"
+      "Market": "Northeast"
     },
     {
       "OpCo": "320",
       "Name": "Sysco Riverside",
-      "Market": "Pacific",
-      "Size": "Jumbo",
-      "OdbcLink": "AS320A"
+      "Market": "Pacific"
     },
     {
       "OpCo": "332",
       "Name": "Sysco Western Minnesota",
-      "Market": "Midwest",
-      "Size": "Large",
-      "OdbcLink": "AS332A"
+      "Market": "Midwest"
     }
   ]
 }
