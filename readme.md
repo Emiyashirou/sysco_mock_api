@@ -231,15 +231,15 @@ Get one group by id. E.g.: GET - http://127.0.0.1:5858/groups/01
 
 ## http://127.0.0.1:5858/groups [POST]
 
-Add new group, handler will do nothing except return 200.
+Add new group, handler will return same body back.
 
 ## http://127.0.0.1:5858/groups/{id} [PUT]
 
-Update group by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/groups/01
+Update group by id, handler will return same body back. E.g.: PUT - http://127.0.0.1:5858/groups/01
 
 ## http://127.0.0.1:5858/groups [OPTIONS]
 
-Get options, handler will do nothing except return 200.
+Get options, handler will return same body back.
 
 ## http://127.0.0.1:5858/locations [GET]
 
@@ -251,15 +251,15 @@ Get one location by id. E.g.: GET - http://127.0.0.1:5858/locations/01-000001
 
 ## http://127.0.0.1:5858/locations [OPTIONS]
 
-Get options, handler will do nothing except return 200.
+Get options, handler will return same body back.
 
 ## http://127.0.0.1:5858/locations [POST]
 
-Add new location, handler will do nothing except return 200.
+Add new location, handler will return same body back.
 
 ## http://127.0.0.1:5858/locations/{id} [PUT]
 
-Update location by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/locations/01-000001
+Update location by id, handler will return same body back. E.g.: PUT - http://127.0.0.1:5858/locations/01-000001
 
 ## http://127.0.0.1:5858/looksup [GET]
 
@@ -271,7 +271,7 @@ Look up all roles. E.g.: GET - http://127.0.0.1:5858/looksup/Roles
 
 ## http://127.0.0.1:5858/looksup [OPTIONS]
 
-Get options, handler will do nothing except return 200.
+Get options, handler will return same body back.
 
 ## http://127.0.0.1:5858/opcos [GET]
 
@@ -283,7 +283,7 @@ Get one OpCo by id. E.g.: GET - http://127.0.0.1:5858/opcos/001
 
 ## http://127.0.0.1:5858/opcos [OPTIONS]
 
-Get options, handler will do nothing except return 200.
+Get options, handler will return same body back.
 
 ## http://127.0.0.1:5858/global-settings [GET]
 
@@ -291,19 +291,19 @@ Get global settings.
 
 ## http://127.0.0.1:5858/global-settings [POST]
 
-Post global settings, handler will do nothing except return 200.
+Post global settings, handler will return same body back.
 
 ## http://127.0.0.1:5858/global-settings [PUT]
 
-Put global settings, handler will do nothing except return 200.
+Put global settings, handler will return same body back.
 
 ## http://127.0.0.1:5858/global-settings [OPTIONS]
 
-Get options, handler will do nothing except return 200.
+Get options, handler will return same body back.
 
 ## http://127.0.0.1:5858/users/{id} [PUT]
 
-Update user by id, handler will do nothing except return 200. E.g.: PUT - http://127.0.0.1:5858/users/001
+Update user by id, handler will return same body back. E.g.: PUT - http://127.0.0.1:5858/users/001
 
 ## http://127.0.0.1:5858/users [GET]
 
@@ -315,8 +315,8 @@ Get one user by id. E.g.: GET - http://127.0.0.1:5858/users/001
 
 ## http://127.0.0.1:5858/users [POST]
 
-Add new user, handler will do nothing except return 200.
+Add new user, handler will return same body back.
 
 ## http://127.0.0.1:5858/users [OPTIONS]
 
-Get options, handler will do nothing except return 200.
+Get options, handler will return same body back.

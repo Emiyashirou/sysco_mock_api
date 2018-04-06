@@ -24,7 +24,7 @@ exports.handler = (event, context, callback) => {
                 callback(null, {body: JSON.stringify(opcos), statusCode: 200});
                 break;
             case "OPTIONS":
-                callback(null, {statusCode: 200});
+                callback(null, {body: event.body, statusCode: 200});
             default:
                 // Send HTTP 501: Not Implemented
                 console.log("Error: unsupported HTTP method (" + event.httpMethod + ")");
