@@ -17,7 +17,7 @@
       "Role": {
         "Category": "Role",
         "LookupId": 2,
-        "LookupValue": "Corporate"
+        "LookupValue": "Corporate User"
       }
     },
     {
@@ -30,8 +30,8 @@
         "LookupValue": "OpCo Leader"
       },
       "OpCo": {
-        "OpCo": 1,
-        "Name": "Texas"
+        "OpCo": "001",
+        "Name": "Sysco Jackson"
       }
     },
     {
