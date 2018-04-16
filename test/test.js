@@ -198,6 +198,43 @@ describe("/OPTIONS opcos", () => {
     });
 });
 
+describe("/GET markets", () => {
+    it("it should GET all the markets", (done) => {
+        chai.request(server)
+            .get("/markets")
+            .end((err, res) => {
+                res.should.have.status(200);
+                res.body.should.be.a("object");
+                res.body.should.have.property("data");
+                done();
+            });
+    });
+});
+
+describe("/GET one opco", () => {
+    it("it should GET one opco by id", (done) => {
+        chai.request(server)
+            .get("/markets/001")
+            .end((err, res) => {
+                res.should.have.status(200);
+                res.body.should.be.a("object");
+                res.body.should.have.property("data");
+                done();
+            });
+    });
+});
+
+describe("/OPTIONS markets", () => {
+    it("it should GET markets options", (done) => {
+        chai.request(server)
+            .options("/markets")
+            .end((err, res) => {
+                res.should.have.status(200);
+                done();
+            });
+    });
+});
+
 describe("/GET global settings", () => {
     it("it should GET global settings", (done) => {
         chai.request(server)

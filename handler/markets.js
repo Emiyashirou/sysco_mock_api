@@ -1,0 +1,42 @@
+'use strict';
+
+var fs = require("fs");
+
+exports.handler = (event, context, callback) => {
+
+    let id = (event.pathParameters || {}).id || false;
+
+    if (id) {
+        switch (event.httpMethod) {
+            case "GET":
+                var markets_json = JSON.parse(fs.readFileSync("mock_data/markets.json"));
+                var spe_market = {};
+                markets_json.data.map(market => {
+                    if (market.Id.toString() === id) {
+                        spe_market = market;
+                    }
+                });
+                callback(null, {body: JSON.stringify({data: spe_market}), statusCode: 200});
+                break;
+            case "PUT":
+                callback(null, {body: event.body, statusCode: 200});
+                break;
+            default:
+                console.log("Error: unsupported HTTP method (" + event.httpMethod + ")");
+                callback(null, {statusCode: 501});
+        }
+    } else {
+        switch (event.httpMethod) {
+            case "GET":
+                var markets_json = JSON.parse(fs.readFileSync("mock_data/markets.json"));
+                callback(null, {body: JSON.stringify(markets_json), statusCode: 200});
+                break;
+            case "POST":
+                callback(null, {body: event.body, statusCode: 200});
+                break;
+            case "OPTIONS":
+                callback(null, {body: event.body, statusCode: 200});
+                break;
+        }
+    }
+}

@@ -78,6 +78,29 @@ Resources:
             Path: /opcos
             Method: options
 
+  Markets:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler/markets.handler
+      Runtime: nodejs6.10
+      Timeout: 20
+      Events:
+        GetMarketsAll:
+          Type: Api
+          Properties:
+            Path: /markets
+            Method: get
+        GetMarketsById:
+          Type: Api
+          Properties:
+            Path: /markets/{id}
+            Method: get
+        OptionsMarkets:
+          Type: Api
+          Properties:
+            Path: /markets
+            Method: options
+
   Users:
     Type: AWS::Serverless::Function
     Properties:
