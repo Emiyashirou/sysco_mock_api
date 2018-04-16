@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "Id": "001",
+      "Market Level": "Mountain Central",
+      "Company Number": "066",
+      "Company Name": "NEW MEXICO"
+    },
+    {
+      "Id": "002",
+      "Market Level": "Northeast",
+      "Company Number": "051",
+      "Company Name": "CENTRAL PENNSYLVANIA"
+    },
+    {
+      "Id": "003",
+      "Market Level": "Pacific",
+      "Company Number": "102",
+      "Company Name": "SPOKANE"
+    },
+    {
+      "Id": "004",
+      "Market Level": "South",
+      "Company Number": "029",
+      "Company Name": "ARKANSAS"
+    },
+    {
+      "Id": "005",
+      "Market Level": "Midwest",
+      "Company Number": "011",
+      "Company Name": "LOUISVILLE"
+    },
+    {
+      "Id": "006",
+      "Market Level": "Midwest",
+      "Company Number": "194",
+      "Company Name": "CENTRAL ILLINOIS"
+    },
+    {
+      "Id": "007",
+      "Market Level": "Southeast",
+      "Company Number": "137",
+      "Company Name": "COLUMBIA"
+    },
+    {
+      "Id": "008",
+      "Market Level": "Southeast",
+      "Company Number": "048",
+      "Company Name": "CHARLOTTE"
+    },
+    {
+      "Id": "009",
+      "Market Level": "Northeast",
+      "Company Number": "008",
+      "Company Name": "NORTHERN NEW ENGLAND"
+    }
+  ]
+}

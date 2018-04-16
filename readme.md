@@ -285,6 +285,18 @@ Get one OpCo by id. E.g.: GET - http://127.0.0.1:5858/opcos/001
 
 Get options, handler will return same body back.
 
+## http://127.0.0.1:5858/markets [GET]
+
+Get Markets list.
+
+## http://127.0.0.1:5858/markets/{id} [GET]
+
+Get one market by id. E.g.: GET - http://127.0.0.1:5858/markets/001
+
+## http://127.0.0.1:5858/markets [OPTIONS]
+
+Get options, handler will return same body back.
+
 ## http://127.0.0.1:5858/global-settings [GET]
 
 Get global settings.
